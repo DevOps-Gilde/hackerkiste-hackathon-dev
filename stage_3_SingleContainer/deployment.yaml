@@ -32,7 +32,7 @@ spec:
       containers:
       - name: nginx
         image: hackerkisteregistry.azurecr.io/nginx:latest
-        imagePullPolicy: always
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
         resources: {}
